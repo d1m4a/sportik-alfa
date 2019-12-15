@@ -18,7 +18,7 @@
               class="mb-2 text-center card__item"
             )
               b-card-text {{ location.descr }}
-              b-button(to="#" pill @click.prevent="showLocation(location)").btn__view Посмотреть
+              b-button(to="#" variant="outline-light" @click.prevent="showLocation(location)").btn__view Посмотреть
 </template>
 
 <script>

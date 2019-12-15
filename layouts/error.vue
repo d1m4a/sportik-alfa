@@ -4,7 +4,7 @@
         b-col
           h1.error.text-center Ты кажется не туда зашел!?
           div.mb30
-            b-img(b-img center src="/idontknow.png" alt="i don't know")
+            b-img(b-img center src="~assets/img/idontknow.png" alt="i don't know")
           h3.error.text-center Возвращайся-ка ты домой!
           div.text-center
             b-button(to="/" variant="outline-secondary").text-bold Вернуться домой
